@@ -1,6 +1,6 @@
 ﻿/*
  - ADO.NET 
- - Dapper
+ - Dapper => Mini ORM - Object Relational Mapper
  - SqlConnection
  - CRUD-operasjonene mot en enkelt tabell
  - Pakke inn som en egen Repository-klasse
@@ -9,10 +9,18 @@
  - Aggregeringer
  - Guid
 
-Pause til 11:05
+ - EntityFramework
+
  */
 
 using IntroSqlFraCS;
 
-DbDemo.Main().Wait();
+//DbDemo.Main().Wait();
+
+//Task.Run(DbDemo.Main);
+//Console.ReadLine();
+
+
+var guid = Guid.NewGuid();
+Console.WriteLine(guid);
 
